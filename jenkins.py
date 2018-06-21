@@ -11,7 +11,7 @@ class JENKINS(BotPlugin):
 
     def __init__(self, *args, **kwargs):
         super(JENKINS, self).__init__(*args, **kwargs)
-        self.server = jenkins.Jenkins('http://ec2-13-232-108-34.ap-south-1.compute.amazonaws.com:8080/', username='vivek', password='vivek')
+        self.server = jenkins.Jenkins('http://ec2-13-232-108-34.ap-south-1.compute.amazonaws.com:8080/', username='', password='')
        
 
 
