@@ -1,0 +1,9 @@
+[Core]
+Name = JENKINS
+Module = jenkins
+
+[Documentation]
+Description = JENKINS plugin
+
+[Python]
+Version = 3
